@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4B264C761AA33C9200875298 /* myProjet.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myProjet.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B264C761AA33C9200875298 /* myProjet.cpp.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myProjet.cpp.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B264C791AA33C9200875298 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		4B264C7D1AA33C9200875298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B264C7E1AA33C9200875298 /* myProjetProj.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = myProjetProj.xcconfig; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		4B264C771AA33C9200875298 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B264C761AA33C9200875298 /* myProjet.bundle */,
+				4B264C761AA33C9200875298 /* myProjet.cpp.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,9 +97,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4B264C751AA33C9200875298 /* myProjet */ = {
+		4B264C751AA33C9200875298 /* myProjet.cpp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B264C881AA33C9200875298 /* Build configuration list for PBXNativeTarget "myProjet" */;
+			buildConfigurationList = 4B264C881AA33C9200875298 /* Build configuration list for PBXNativeTarget "myProjet.cpp" */;
 			buildPhases = (
 				4B264C721AA33C9200875298 /* Sources */,
 				4B264C731AA33C9200875298 /* Frameworks */,
@@ -109,9 +109,9 @@
 			);
 			dependencies = (
 			);
-			name = myProjet;
+			name = myProjet.cpp;
 			productName = myProjet;
-			productReference = 4B264C761AA33C9200875298 /* myProjet.bundle */;
+			productReference = 4B264C761AA33C9200875298 /* myProjet.cpp.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -128,7 +128,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4B264C711AA33C9200875298 /* Build configuration list for PBXProject "myProjet" */;
+			buildConfigurationList = 4B264C711AA33C9200875298 /* Build configuration list for PBXProject "myProjet.cpp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -140,7 +140,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4B264C751AA33C9200875298 /* myProjet */,
+				4B264C751AA33C9200875298 /* myProjet.cpp */,
 			);
 		};
 /* End PBXProject section */
@@ -239,7 +239,7 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = myProjet/Info.plist;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = myProjet.cpp;
 			};
 			name = Debug;
 		};
@@ -248,14 +248,14 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = myProjet/Info.plist;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = myProjet.cpp;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4B264C711AA33C9200875298 /* Build configuration list for PBXProject "myProjet" */ = {
+		4B264C711AA33C9200875298 /* Build configuration list for PBXProject "myProjet.cpp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B264C861AA33C9200875298 /* Debug */,
@@ -264,13 +264,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B264C881AA33C9200875298 /* Build configuration list for PBXNativeTarget "myProjet" */ = {
+		4B264C881AA33C9200875298 /* Build configuration list for PBXNativeTarget "myProjet.cpp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B264C891AA33C9200875298 /* Debug */,
 				4B264C8A1AA33C9200875298 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
